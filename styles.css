@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Monsterrat", sans-serif;
+}
+
+nav > ul {
+  width: 100%;
+  /* background-color: blue; */
+  text-align: right;
+}
+
+nav > ul > button {
+  background-color: transparent;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(
+    120deg,
+    hsla(217, 96%, 51%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav > ul > button:hover {
+  cursor: pointer;
+}
+
+header {
+  width: 75%;
+  height: 35vh;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+header > div {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header a {
+  color: black;
+}
+
+.intro-text {
+  margin-left: 20px;
+  font-size: 0.75rem;
+}
+
+.intro-text > ul > li {
+  display: inline-block;
+}
+
+.intro-text h2 {
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin-top: 0.25rem;
+}
+
+.intro-text h3 {
+  font-size: 1.15rem;
+  font-weight: lighter;
+  margin-top: 0.25rem;
+}
+
+.icon {
+  font-size: 1.75rem;
+  margin-top: 0.75rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: #555;
+}
+
+.m-r {
+  margin-right: 0.5rem;
+}
+
+container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-section {
+  /* height: 70vh; */
+  width: 55vw;
+  margin: 3rem;
+}
+
+.recent {
+  color: white;
+  border-radius: 20px;
+  height: 30vh;
+  padding: 3rem;
+  -webkit-box-shadow: 0px 0px 14px 5px rgba(180, 180, 180, 0.47);
+  box-shadow: 0px 0px 14px 5px rgba(180, 180, 180, 0.47);
+  background: hsla(217, 96%, 51%, 1);
+
+  background: linear-gradient(
+    315deg,
+    hsla(217, 96%, 51%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    315deg,
+    hsla(217, 96%, 51%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    315deg,
+    hsla(217, 96%, 51%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+  transition: all 0.2s ease-in-out;
+}
+
+.recent:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
